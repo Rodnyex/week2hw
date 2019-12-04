@@ -1,0 +1,14 @@
+body {
+  background: cornsilk;
+}
+
+
+
+
+header {
+  background-color: rgba(7, 114, 114, 0.438);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: antiquewhite;
+  font-weight: bolder;
+  text-align: center; 
+}
