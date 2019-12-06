@@ -1,14 +1,27 @@
 body {
-  background: cornsilk;
+  background: #dddddd;
 }
 
 
 
 
 header {
-  background-color: rgba(7, 114, 114, 0.438);
+  border-color: #cccccc;
+  background-color: #4aaaa5;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: antiquewhite;
+  color: #ffffff;
   font-weight: bolder;
   text-align: center; 
+  padding: 2% 0% 0% 2%;
+  margin: 5% 80% 0% 5%;
+}
+.border {
+  color: #cccccc;
+}
+.btn-group {
+  background-color: #ffffff;
+}
+section {
+  background: #ffffff;
+  padding: 0% 10% 15% 5%;
 }
