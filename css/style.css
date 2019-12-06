@@ -6,8 +6,8 @@ body {
 
 
 header {
-  border-color: #cccccc;
-  background-color: #4aaaa5;
+  width: 100%;
+  border-color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ffffff;
   font-weight: bolder;
@@ -15,11 +15,46 @@ header {
   padding: 2% 0% 0% 2%;
   margin: 5% 80% 0% 5%;
 }
-.border {
-  color: #cccccc;
-}
-.btn-group {
+.header-rodny {
   background-color: #ffffff;
+  width 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-rodny h1 {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin: 0;
+    padding: 15px 15px;
+}
+.header-rodny nav {
+
+  margin-right: auto;
+  display: flex;
+  flex-wrap: auto;
+  justify-content: center;
+}
+.header-rodny nav a {
+  color: #cccccc;
+  padding: 0px 0px;
+  font-size 15px;
+  border-right: 5px;
+  
+}
+@media (max-width:750px) {
+  .header-rodny {
+    width: 100%;
+    text-align: center;
+  }
+
+.header-rodny h1,
+.header-wrapper nav {
+  width: 100%;
+
+}
+
 }
 section {
   background: #ffffff;
